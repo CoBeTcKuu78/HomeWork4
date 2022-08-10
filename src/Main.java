@@ -1,8 +1,16 @@
 public class Main {
     public static void main(String[] args) {
-
-
+        //задача 1
+        int j = 1 ;
+        while (j<11){
+            System.out.print(" " + j++);
+        }
+        System.out.println("\n");
+        for (int i = 10; i>0; i--) {
+            System.out.print(" " +i);
+        }
         //задача 2
+        System.out.println("\n");
     int firstFriday = 5;
     int nextFriday = firstFriday + 7;
     int lastFriday = 31;
