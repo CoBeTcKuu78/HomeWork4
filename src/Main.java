@@ -1,5 +1,41 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        //задача 1
+        int j = 1 ;
+        while (j<11){
+            System.out.print(" " + j++);
+        }
+        System.out.println("\n");
+        for (int i = 10; i>0; i--) {
+            System.out.print(" " +i);
+        }
+        //задача 2
+        System.out.println("\n");
+    int firstFriday = 5;
+    int nextFriday = firstFriday + 7;
+    int lastFriday = 31;
+    for (int i = firstFriday; i < lastFriday; i = i + 7){
+        System.out.println( "Сегодня пятница " + i  + "-е, подготовьте отчет!");
+        //break;
+    }
+        //задача 3
+        int yearNow = 2022;
+        int begin = yearNow -200;
+        int end = yearNow + 100;
+        for (int i = 0; i <= end; i = i + 79)
+            if(i >= begin){
+            System.out.println(i);
+        }
+
+
+        /* не моё решение,но смотрел и сверял
+        int currentYear = 2022;
+        int begin = currentYear - 200;
+        int end = currentYear + 100;
+        for (int year = 0; year <= end; year += 79) {
+            if (year >= begin) {
+                System.out.println(year);
+            }
+        }*/
     }
 }
